@@ -13,8 +13,8 @@ function writePassword() {
 
 var lower = "abcdefghijklmnopqrstuvwxyz";
 var upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-var special = "!@#$^&%*()+=-[]{}|:<>?,.";
 var numbers = "1234567890";
+var special = "!@#$^&%*()+=-[]{}|:<>?,.";
 
 
 
@@ -25,10 +25,14 @@ var pwLength = prompt("Choose a number between 8 and 128 to have as characters i
 if (pwLength < 8){
   alert ("Length of password must be 8 to 128 characters!");
 }
-else (pwLength > 128){
+if (pwLength > 128){
   alert ("Length of password must be 8 to 128 characters!");
 }
 
+var low = prompt ("Would you like to include lowercase letters?")
+var up = prompt ("Would you like to include uppercase letters?")
+var numb = prompt ("Would you like to inlcude numbers?")
+var spec = prompt ("Would you like to include special characters?")
 
 
 
