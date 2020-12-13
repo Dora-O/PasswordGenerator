@@ -10,4 +10,4 @@ A screenshot of what the page is suppose to look like with password will be uplo
 
 Application will be deployed at the following link: https://dora-o.github.io/PasswordGenerator/
 
-README, script.js, css, html and screenshot will be uploaded to https://github.com/Dora-O/PasswordGenerator
+Screenshot of deployed site :<img src =https://user-images.githubusercontent.com/70343136/102025676-3d072d00-3d5f-11eb-97ee-51ef0bb5f3d2.png>
